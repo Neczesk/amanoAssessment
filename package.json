@@ -1,0 +1,28 @@
+{
+  "name": "amanoassessment",
+  "version": "1.0.0",
+  "description": "CLI tool for currency exchange rates",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Neczesk/amanoAssessment.git"
+  },
+  "author": "Kyle Haltermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neczesk/amanoAssessment/issues"
+  },
+  "homepage": "https://github.com/Neczesk/amanoAssessment#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "firebase": "^10.1.0",
+    "firebase-admin": "^11.10.1",
+    "jest": "^29.6.2",
+    "jsonschema": "^1.4.1",
+    "prompt-sync": "^4.2.0"
+  }
+}
